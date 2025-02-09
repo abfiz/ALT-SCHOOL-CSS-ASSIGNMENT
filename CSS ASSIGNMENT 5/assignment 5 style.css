@@ -1,0 +1,117 @@
+body {
+    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f8fa;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.account-btn {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}
+
+/* Checkout Container */
+.checkout-container {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section */
+.checkout-form {
+    flex: 2;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+.buy-btn {
+    width: 100%;
+    padding: 15px;
+    background: #038E7D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Pricing Box */
+.pricing-box {
+    flex: 1;
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.switch-plan {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+blockquote {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
